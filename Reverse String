@@ -1,0 +1,9 @@
+
+num = int(input("Enter a number: "))
+
+if num < 0:
+    rev = -int(str(abs(num))[::-1])   # handle negative
+else:
+    rev = int(str(num)[::-1])
+
+print("Reversed number:", rev)

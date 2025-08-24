@@ -1,0 +1,55 @@
+#String length 
+
+
+Name="hactronians"
+S=len(Name)
+print(S)
+
+#String Case Conversion and checks
+
+Name="hactronians23S"
+print(Name.upper())
+print(Name.lower())
+print(Name.capitalize())
+print(Name.isalnum())
+print(Name.isalpha())
+
+
+#Removing Spaces
+a="King of hactroni"
+print(a.strip())
+print(a.rstrip())
+print(a.lstrip())
+
+
+#Replace Words
+
+a="old is silver"
+print(a.replace("silver","gold" ))
+
+
+#Split String
+
+print(a.split(","))
+
+#String Indexing and Slicing
+
+print(a[-3])
+print(a[3:8])
+
+
+#Escape Character
+
+a="knowledge is \"power\""
+print(a)
+
+
+#String Formatting
+
+Name ="hactronians"
+Age=20
+print(f"Her name is {Name} and Age is {Age}")
+
+print("Her name is {} and Age is {}".format(Name, Age))
+
+print("Her Name is %s and Age is %d"%(Name, Age))
